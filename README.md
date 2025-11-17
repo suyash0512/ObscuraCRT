@@ -3,7 +3,7 @@
 A Java-based application that securely hides secret messages within images using:
 - Least Significant Bit (LSB) steganography
 - Chinese Remainder Theorem (CRT)
-
+z
 ## 🧠 Features
 - Embed and extract messages in images
 - Works with multiple image formats
