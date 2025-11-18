@@ -94,5 +94,4 @@ public class CRTLogic {
         if (mse == 0) return 99.99;
         return 10 * Math.log10((255 * 255) / mse);
     }
-
 }
