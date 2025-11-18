@@ -1,5 +1,3 @@
-//FRONTEND
-
 package com.mycompany.obscura;
 
 import javax.imageio.ImageIO;
