@@ -56,11 +56,6 @@ public class OBSCURA extends JFrame {
             }
         }
     };
-
-
-
-    
-    
     private final JLabel psnrLabel = new JLabel("PSNR: -");
     private final JTextArea descriptionArea = new JTextArea();
     private final JButton encryptButton = new JButton("Encrypt (CRT)");
