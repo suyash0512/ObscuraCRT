@@ -154,7 +154,7 @@ public class OBSCURA extends JFrame {
         saveImageButton.addActionListener(e -> saveImage());
         clearButton.addActionListener(e -> clearAll());
     }
-
+    
     private void loadImage() {
         try {
             JFileChooser chooser = new JFileChooser();
