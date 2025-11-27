@@ -9,6 +9,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class OBSCURA extends JFrame {
 
     private final JLabel originalPreview = new JLabel("Original Image", SwingConstants.CENTER);
