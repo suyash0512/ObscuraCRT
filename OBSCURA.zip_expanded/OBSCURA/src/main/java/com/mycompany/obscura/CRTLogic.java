@@ -63,7 +63,7 @@ public class CRTLogic {
         }
         return out;
     }
-
+    
     public static String extractData(BufferedImage image, CRTLogic crt) {
         StringBuilder sb = new StringBuilder();
         for (int y = 0; y < image.getHeight(); y++) {
@@ -93,5 +93,6 @@ public class CRTLogic {
         return 10 * Math.log10((255 * 255) / mse);
     }
 }
+
 
 
