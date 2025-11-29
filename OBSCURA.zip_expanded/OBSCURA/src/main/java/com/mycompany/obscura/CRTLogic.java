@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Random;
 public class CRTLogic {
 
+    
     private List<Integer> key = new ArrayList<>();
 
     public void generateKey(int count, int min, int max) {
@@ -93,6 +94,7 @@ public class CRTLogic {
         return 10 * Math.log10((255 * 255) / mse);
     }
 }
+
 
 
 
