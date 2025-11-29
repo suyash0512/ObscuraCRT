@@ -109,7 +109,6 @@ public class OBSCURA extends JFrame {
         JScrollPane secretScroll = new JScrollPane(secretDataArea);
         secretScroll.setPreferredSize(new Dimension(300, 100));
         right.add(secretScroll);
-
         right.add(Box.createRigidArea(new Dimension(0, 10)));
         right.add(new JLabel("Key (comma-separated):"));
         right.add(keyField);
