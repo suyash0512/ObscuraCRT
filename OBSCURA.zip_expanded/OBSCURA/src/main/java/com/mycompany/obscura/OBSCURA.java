@@ -144,6 +144,7 @@ public class OBSCURA extends JFrame {
         saveImageButton.setEnabled(false);
     }
 
+
     private void hookActions() {
         loadImageButton.addActionListener(e -> loadImage());
         generateKeyButton.addActionListener(e -> generateKey());
@@ -240,7 +241,7 @@ public class OBSCURA extends JFrame {
             showError(ex.getMessage());
         }
     }
-
+    
     private void clearAll() {
         loadedImage = null;
         encryptedImage = null;
