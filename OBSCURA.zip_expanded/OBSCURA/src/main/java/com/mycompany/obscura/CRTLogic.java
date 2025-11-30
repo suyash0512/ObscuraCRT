@@ -78,6 +78,7 @@ public class CRTLogic {
         return sb.toString();
     }
 
+    
     public static double calculatePSNR(BufferedImage img1, BufferedImage img2) {
         int w = img1.getWidth(), h = img1.getHeight();
         double mse = 0.0;
@@ -94,6 +95,7 @@ public class CRTLogic {
         return 10 * Math.log10((255 * 255) / mse);
     }
 }
+
 
 
 
