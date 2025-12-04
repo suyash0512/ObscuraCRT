@@ -1,8 +1,6 @@
 # Steganography Project 🖼️🔐
 
-A Java-based application that securely hides secret messages within images using:
-- Least Significant Bit (LSB) steganography
-- Chinese Remainder Theorem (CRT)
+A Java-based application that securely hides secret messages within images.
 
 ## 🧠 Features
 - Embed and extract messages in images
