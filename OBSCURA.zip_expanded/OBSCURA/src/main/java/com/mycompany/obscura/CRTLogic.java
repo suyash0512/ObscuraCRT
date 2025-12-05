@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 public class CRTLogic {
+
     
     private List<Integer> key = new ArrayList<>();
 
@@ -94,6 +95,7 @@ public class CRTLogic {
         return 10 * Math.log10((255 * 255) / mse);
     }
 }
+
 
 
 
