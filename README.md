@@ -14,6 +14,7 @@ A Java-based application that securely hides secret messages within images.
 4. The application will open and allow you to:
 - Choose an image file
 - Enter your secret message
+- Enter your key
 - Embed or extract the message
 
 ## 👨‍💻 Developed By
