@@ -270,7 +270,6 @@ public class OBSCURA extends JFrame {
         return sb.toString();
     }
 
-    
     private void append(String msg) {
         descriptionArea.append(msg + "\n");
     }
