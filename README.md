@@ -20,4 +20,4 @@ A Java-based application that securely hides secret messages within images.
 ## 👨‍💻 Developed By
 **Suyash Gupta**  
 Master of Computer Applications (MCA)  
-Java | Image Processing | Cryptography Enthusiast
+Java | Image Processing | Steganography | Cryptography Enthusiast
