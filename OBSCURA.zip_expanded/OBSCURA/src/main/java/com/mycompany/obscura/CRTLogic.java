@@ -35,7 +35,7 @@ public class CRTLogic {
         for (int m : list) if (gcd(n, m) != 1) return false;
         return true;
     }
-
+ 
     private int gcd(int a, int b) {
         return b == 0 ? a : gcd(b, a % b);
     }
@@ -94,3 +94,4 @@ public class CRTLogic {
         return 10 * Math.log10((255 * 255) / mse);
     }
 }
+
