@@ -65,7 +65,6 @@ public class OBSCURA extends JFrame {
     private final JButton loadImageButton = new JButton("Load Image");
     private final JButton saveImageButton = new JButton("Save Image");
     private final JButton clearButton = new JButton("Clear");
-
     private BufferedImage loadedImage = null;
     private BufferedImage encryptedImage = null;
     private final CRTLogic crt = new CRTLogic();
