@@ -28,7 +28,7 @@ public class OBSCURA extends JFrame {
             }
         }
     };
-    
+     
     private final JTextField keyField = new JTextField() {
         @Override
         protected void paintComponent(Graphics g) {
