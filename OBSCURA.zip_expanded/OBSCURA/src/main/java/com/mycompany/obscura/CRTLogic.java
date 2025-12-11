@@ -6,7 +6,7 @@ import java.util.Random;
 public class CRTLogic {    
     private List<Integer> key = new ArrayList<>();
     public void generateKey(int count, int min, int max) {
-        key.clear();
+        key.clear(); 
         Random rand = new Random();
         while (true) {
             key.clear();
@@ -92,4 +92,5 @@ public class CRTLogic {
         return 10 * Math.log10((255 * 255) / mse);
     }
 }
+
 
