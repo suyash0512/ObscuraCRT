@@ -92,10 +92,3 @@ public class CRTLogic {
         return 10 * Math.log10((255 * 255) / mse);
     }
 }
-
-
-
-
-
-
-
